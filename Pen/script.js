@@ -1,10 +1,55 @@
 let mybtn = document.getElementById("btn")
+let text = document.getElementById("cont")
 
-
-
+ let i = 0
 const print = ()=>{
-    console.log(1)
-}
+   
+    const textArr =
+    [
+
+      `<blockquote  dir="rtl" lang="ar" class="text" id="text">
+           
+    بكره بحط اقتباسات او اسطري
+       
+    </br>
+       <cite> </cite>
+     </blockquote>
+      `
+       ,
+    `
+    <blockquote  dir="rtl" lang="ar" class="text" id="text">
+           
+    واضبطه شوي
+     
+  </br>
+     <cite>  </cite>
+   </blockquote>
+    `
+    ,
+    
+      `
+      <blockquote  dir="rtl" lang="ar" class="text" id="text">
+             
+      الحين تعبت خلاص
+       
+    </br>
+       <cite> ميو </cite>
+     </blockquote>
+      `
+    ]
+  
+
+    text.innerHTML = textArr[i]
+    
+    i++
+      if(i == textArr.length)
+      {
+        i = 0
+      }
+      // else {
+      //   continue
+      // }
+    }
 
 
 

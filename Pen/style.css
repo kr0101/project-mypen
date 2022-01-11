@@ -33,6 +33,7 @@ body{
    
 }
 
+
 .text {
     position: relative;
     top:90px;
@@ -88,10 +89,10 @@ body{
 	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
 	background-color:#ffab23;
 }
-.btn-next:active {
+/* .btn-next:active {
 	position:relative;
 	top:1px;
-}
+} */
 .btn-next.media a{
   font-size: 20px;
   text-decoration:none;
