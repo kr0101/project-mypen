@@ -9,33 +9,47 @@ const print = ()=>{
 
       `<blockquote  dir="rtl" lang="ar" class="text" id="text">
            
-    بكره بحط اقتباسات او اسطري
+    حتى الجمادات تعلم ان مافعلته لاينبغي فِعلُه
        
     </br>
-       <cite> </cite>
+       <cite class = "cite">السطر الاول </cite>
      </blockquote>
       `
        ,
     `
     <blockquote  dir="rtl" lang="ar" class="text" id="text">
            
-    واضبطه شوي
+   مُبرر الجريمة مُجرم لم تسنح له الفرصة للإجرام بعد
      
   </br>
-     <cite>  </cite>
+     <cite>السطر الثاني</cite>
    </blockquote>
     `
     ,
+
+
+
+    // تم التوقف
     
-      `
-      <blockquote  dir="rtl" lang="ar" class="text" id="text">
-             
-      الحين تعبت خلاص
+    `<blockquote  dir="rtl" lang="ar" class="text" id="text">
+           
+    حتى الجمادات تعلم ان مافعلته لاينبغي فِعلُه
        
     </br>
-       <cite> ميو </cite>
+       <cite class = "cite">سطر 1 </cite>
      </blockquote>
       `
+       ,
+    `
+    <blockquote  dir="rtl" lang="ar" class="text" id="text">
+           
+   مُبرر الجريمة مُجرم لم تسنح له الفرصة للإجرام بعد
+     
+  </br>
+     <cite>سطر 2 </cite>
+   </blockquote>
+    `
+    
     ]
   
 
